@@ -156,3 +156,22 @@ footer {
       border-radius: 20px;
       margin-top: 15px;
     }
+@media screen and (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+     width: 100%;  
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+  }
+
+  nav ul.show {
+    display: flex;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+}
